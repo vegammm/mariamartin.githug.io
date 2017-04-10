@@ -1,17 +1,33 @@
-body{
-  font-family: Captain Comic, sans-serif;
+* {box-sizing: border-box;
+  }
 
-
-
-
+body {
+  font-family: 'Timmana', sans-serif;
+  width: 960px;
+  margin: 0 auto;
 
 }
+
+  .cabecera{
+    width: 960px;
+    height:700px;
+    background-image: url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ7ScZuru32aQMeAciooTtMmDqY_Bd5rk_-1pPIoQHl46HlDDHWkA);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 2px solid grey ;
+}
+  .cabecera h1{
+    font-size: 80px;
+}
+  .cabecera a{
+    text-decoration: none;
+}
+
 h3{
   font-style: oblique;
-  color:gren;
-
-
+  color:grenrgb(224, 219, 144);
 }
+
 .yo {
     text-align: right;
 
@@ -24,4 +40,7 @@ table img{
     width: 150px;
     border-radius: 50%;
 
+}
+.footer{
+  background-color: rgb(111, 35, 68)
 }
